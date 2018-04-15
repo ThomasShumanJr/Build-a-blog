@@ -1,0 +1,112 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    color: white;
+    background-color: black;
+}
+header {
+    float: left, 20px;
+    height: 300px;
+    width: auto;
+    background:rgb(143, 39, 4);
+}  
+  
+#b1 {
+      background-color: crimson;
+      border-radius:2px;
+      border:none;
+      color: darkgreen;
+      cursor: pointer;
+      display:block;
+      font-size: 85%;
+      margin-bottom: 1rem;
+      padding: .5rem;
+}
+#b2 {
+    background-color: royalblue;
+    border-radius:2px;
+    border:none;
+    color: darkgreen;
+    cursor: pointer;
+    display:block;
+    font-size: 85%;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+#b3{
+    background-color: goldenrod;
+    border-radius:2px;
+    border:none;
+    color: darkgreen;
+    cursor: pointer;
+    display:block;
+    font-size: 85%;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+#b1:hover {
+      background:orangered;
+      box-shadow: 0px 5px 5px #777;
+      left: -3px;
+      position: relative;
+      top: -3px;
+}
+#b2:hover {
+    background: indigo;
+    box-shadow: 0px 5px 5px #777;
+    left: -3px;
+    position: relative;
+    top: -3px;
+}
+#b3:hover {
+    background:darkgoldenrod;
+    box-shadow: 0px 5px 5px #777;
+    left: -3px;
+    position: relative;
+    top: -3px;
+}
+main {
+      display: flex;
+      justify-content: flex-start;
+}
+  
+.container {
+      margin-left: 3rem;
+}
+  
+input {
+      display: block;
+      font-size: 100%;
+      margin: 1rem;
+}
+  
+textarea {
+      display: block;
+      font-size: 100%;
+      margin: 1rem;
+}
+  
+#submit_button {
+      background-color: lightgreen;
+      border-radius:2px;
+      border:none;
+      color: darkgreen;
+      cursor: pointer;
+      padding: .5em;
+}
+  
+#submit_button:hover {
+      background:black;
+      box-shadow: 0px 5px 5px #777;
+      left: -3px;
+      position: relative;
+      top: -3px;
+}
+  
+.flash_message {
+      background-color: ivory;
+      border-radius: 2px;
+      color: red;
+      margin: .25rem;
+      padding: 2rem;
+}
