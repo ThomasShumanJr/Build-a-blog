@@ -57,8 +57,8 @@ def new_entry():
             url = "/blog?id=" + str(new_entry.id)
             return redirect(url)
         else:
-            flash("Please check your entry for errors. Both a title and a body are required.")
-            return render_template('new_entry_form.html',
+            error = "Please check your entry for errors. Both a title and a body are required."
+            return render_template('new_entry_form.html', error=error,
                 title="Create new blog entry",
                 new_entry_title=new_entry_title,
                 new_entry_body=new_entry_body)

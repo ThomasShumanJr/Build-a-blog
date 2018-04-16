@@ -3,13 +3,16 @@
 {% block content %}
 <h1>So what're we writing about?</h1>
 <form action="/new_entry" method="post">
-
+    <div>
         <label for="title_field">What's the title:</label>
         <input id="title_field" name="title" type="text" value="{{ new_entry_title }}">
-
+        <span class="error" style="color: red;">{{error}}</span>
+    </div>
+    <div>
         <label for="body_field">What's the story:</label>
         <textarea rows="4" cols="50" id="body_field" name="body" >{{ new_entry_body }}</textarea>
-
-    <input id="submit_button" type="submit" value="Save">
+        <span class="error" style="color: red;">{{error}}</span>
+    </div>
+        <input id="submit_button" type="submit" value="Save">
 </form>
 {% endblock %}
